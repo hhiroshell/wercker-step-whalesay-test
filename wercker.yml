@@ -5,14 +5,12 @@ build:
       message: "hello whalesay !!"
 
 pitch:
+  box: docker/whalesay
   steps:
   - hhiroshell/whalesay@1.0.0:
-      box: docker/whalesay
       message: "hoge"
   - hhiroshell/whalesay@1.0.0:
-      box: docker/whalesay
       message: "bar"
   - hhiroshell/whalesay@1.0.0:
-      box: docker/whalesay
       message: "fuga"
 
