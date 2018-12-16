@@ -1,0 +1,6 @@
+box: docker/whalesay
+
+build:
+  steps:
+  - hhiroshell/whalesay@1.0.0:
+      message: "hello whalesay !!"
