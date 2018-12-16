@@ -1,6 +1,7 @@
 box: ubuntu:latest
 
 build:
+  box: docker/whalesay
   steps:
   - hhiroshell/whalesay@1.0.0:
       message: "hello whalesay !!"
