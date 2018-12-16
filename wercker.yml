@@ -3,3 +3,14 @@ build:
   steps:
   - hhiroshell/whalesay@1.0.0:
       message: "hello whalesay !!"
+
+pitch:
+  box: docker/whalesay
+  steps:
+  - hhiroshell/whalesay@1.0.0:
+      message: "hoge"
+  - hhiroshell/whalesay@1.0.0:
+      message: "bar"
+  - hhiroshell/whalesay@1.0.0:
+      message: "fuga"
+
