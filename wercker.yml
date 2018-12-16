@@ -1,5 +1,3 @@
-box: ubuntu:latest
-
 build:
   box: docker/whalesay
   steps:
