@@ -1,4 +1,4 @@
-box: docker/whalesay
+box: ubuntu:latest
 
 build:
   steps:
